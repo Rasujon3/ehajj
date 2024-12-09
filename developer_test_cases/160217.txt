@@ -1,0 +1,12 @@
+Developer Name: Md. Mehedi Hasan (Atik)
+Default Branch: atik
+Month: May, 2024
+
+---------- *** ----------
+Feature Name: Ocr Medicine Serach By passport Number
+Date: 8-07-2024
+Last Commit Id: c25821621992dd704dd8751347543cf5036a5af6
+Test Cases:
+1) Checked passport data show properly
+2) Checked Medicine data show properly
+---------- *** ----------

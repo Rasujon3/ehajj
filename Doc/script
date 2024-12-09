@@ -1,0 +1,3 @@
+ALTER TABLE `e_hajjdb`.`users` ADD COLUMN `pilgrim_access_token` VARCHAR(10) NULL AFTER `updated_by`, CHARSET=utf8mb3;
+
+ALTER TABLE `e_hajjdb`.`users` CHANGE `working_user_type` `working_user_type` ENUM('Employee','Consultant','Desk user','Pilgrim') CHARSET utf8 COLLATE utf8_unicode_ci DEFAULT 'Desk user' NOT NULL, CHARSET=utf8mb3;

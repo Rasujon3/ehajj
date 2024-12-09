@@ -1,0 +1,30 @@
+Developer Name: Ruhul Amin
+Default Branch: sujon
+Month: May, 2024
+
+---------- *** ----------
+Feature Name: Medicine Receive Feedback
+Date: 09-05-2024
+Last Commit Id: 75716ef5e3194cef855d8a0423dc5d87a660c4a4
+Test Cases:
+1) Tested on if passport not found, scaned medicine div not hidden.
+2) Tested on if passport not found, save btn disabled.
+3) Tested on if passport found, Pilgrim Name & Pilgrim Mobile filled with valid data.
+4) Tested on if passport found, save btn disabled false so that user can submit the form.
+5) Tested on when submit the button, properly store pid on pilgrim_medicine_issue table.
+---------- *** ----------
+
+---------- *** ----------
+Feature Name: prescription image upload on minio related task
+Date: 15-05-2024
+Last Commit Id: 35964609f07a7ab6e4117e8ab427866f9cfecfea
+Test Cases:
+1) Tested on prescription image upload on minio when prescription upload and draft and the url.
+2) Tested on minio secret key expire or not.
+3) Tested on when drafted prescription, put id_drafted value is stored 1 & put the img_url on ocr_draft_medicine table.
+4) Tested on when upload prescription, put id_drafted value is stored 2 & put the img_url on ocr_draft_medicine table.
+5) Tested on drafted medicine list show perfectly desc order when click draft medicine on sidebar.
+6) Tested on when click open button from list, show the medicine from prescription on medicine delivery page.
+7) Tested on when upload prescription successfully, show the medicine from prescription on medicine delivery page.
+8) Tested on when click save button from prescription on medicine delivery page, id_drafted value is stored 3 on ocr_draft_medicine table and properly store pid on ocr_draft_medicine table.
+---------- *** ----------

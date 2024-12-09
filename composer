@@ -1,0 +1,4 @@
+
+Fatal error: Allowed memory size of 1610612736 bytes exhausted (tried to allocate 12288 bytes) in phar://C:/laragon/bin/composer/composer.phar/src/Composer/DependencyResolver/GenericRule.php on line 36
+
+Check https://getcomposer.org/doc/articles/troubleshooting.md#memory-limit-errors for more info on how to handle out of memory errors.
